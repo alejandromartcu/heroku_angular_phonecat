@@ -2,6 +2,27 @@
 
 ## Overview
 
+This repo demonstrates how to deploy angular-phonecat to heroku.
+
+I followed these steps on my laptop to deploy angular-phonecat to heroku:
+
+   git clone https://github.com/angular/angular-phonecat.git
+   cd angular-phonecat
+   npm install express logfmt
+   git checkout step-12
+   git checkout -b step_12_branch
+   git checkout master
+   git merge step_12_branch
+   vi Procfile
+   vi package.json
+   vi scripts/web-server.js
+   git commit -m repo-better-now
+   heroku create angular-phonecat
+   git push heroku master
+   visit http://angular-phonecat.herokuapp.com/app/index.html
+
+The text below is from the original README.md
+
 This application takes the developer through the process of building a web-application using
 angular. The application is loosely based on
 [Google phone gallery](http://www.google.com/phone/). Each commit is a separate lesson
