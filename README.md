@@ -1,6 +1,4 @@
-# AngularJS Phone Catalog Tutorial Application
-
-## Overview
+# Heroku Angular Phonecat
 
 This repo demonstrates how to deploy angular-phonecat to heroku.
 
@@ -31,11 +29,13 @@ The main ideas in the above shell commands are:
 
 I see the above changes in the URL below:
 
-[https://github.com/danbikle/heroku_angular_phonecat/commits/master]
-
-(https://github.com/danbikle/heroku_angular_phonecat/commits/master)
+https://github.com/danbikle/heroku_angular_phonecat/commits/master
 
 The text below is from the original README.md
+
+# AngularJS Phone Catalog Tutorial Application
+
+## Overview
 
 This application takes the developer through the process of building a web-application using
 angular. The application is loosely based on
