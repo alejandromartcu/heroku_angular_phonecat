@@ -22,6 +22,19 @@ I ran these shell commands on my laptop to deploy angular-phonecat to heroku:
     git push heroku master
     firefox angular-phonecat.herokuapp.com/app/index.html
 
+The main ideas in the above shell commands are:
+
+- Move step-12 near HEAD of master branch
+- Add Procfile so Heroku can run scripts/web-server.js via Foreman
+- Enhance package.json so Heroku can know more
+- Enhance scripts/web-server.js
+
+I see the above changes in the URL below:
+
+[https://github.com/danbikle/heroku_angular_phonecat/commits/master]
+
+(https://github.com/danbikle/heroku_angular_phonecat/commits/master)
+
 The text below is from the original README.md
 
 This application takes the developer through the process of building a web-application using
