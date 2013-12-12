@@ -4,7 +4,7 @@
 
 This repo demonstrates how to deploy angular-phonecat to heroku.
 
-I followed these steps on my laptop to deploy angular-phonecat to heroku:
+I ran these shell commands on my laptop to deploy angular-phonecat to heroku:
 
     git clone https://github.com/angular/angular-phonecat.git
     cd angular-phonecat
@@ -17,9 +17,10 @@ I followed these steps on my laptop to deploy angular-phonecat to heroku:
     vi package.json
     vi scripts/web-server.js
     git commit -m repo-better-now
+    heroku auth:login
     heroku create angular-phonecat
     git push heroku master
-    visit http://angular-phonecat.herokuapp.com/app/index.html
+    firefox angular-phonecat.herokuapp.com/app/index.html
 
 The text below is from the original README.md
 
